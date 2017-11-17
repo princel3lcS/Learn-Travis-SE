@@ -84,7 +84,8 @@ export default {
         lastName: '',
         Tel: '',
         nickName: ''
-      }
+      },
+      a : ''
     }
   },
   methods: {
