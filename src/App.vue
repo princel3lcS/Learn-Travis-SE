@@ -1,19 +1,17 @@
 <template>
   <div>
-    <section class="hero is-info is-bold" style="height: 100px">
-      <div class="hero-header">
-        <div class="container">
-
-        </div>
-      </div>
-    </section>
+    <hdr-view/>
     <router-view/>
   </div>
 </template>
 
 <script>
+import hdrView from './components/hdr'
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    hdrView
+  }
 }
 </script>
 
