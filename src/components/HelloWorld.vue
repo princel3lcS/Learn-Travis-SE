@@ -44,7 +44,7 @@
             </div>
             <div class="column is-7 box" style="margin-left : 16px; background-color : #00D1BB;">
               <div class="column is-3 box"  v-for="u in User" style="float : left; margin : 10px;">
-                ชื่อ : {{u.Name}} <br>
+                เทส->ชื่อ : {{u.Name}} <br>
                 นามสกุล : {{u.lastName}} <br>
                 เบอร์ : {{u.Tel}} <br>
                 ชื่อเล่น : {{u.nickName}} <br>
