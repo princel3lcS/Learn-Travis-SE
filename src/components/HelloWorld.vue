@@ -9,7 +9,7 @@
               <div class="columns">
                 <div class="column is-3">
                   <label class="title is-4" style="color : #0080ff;">Name </label>
-                </div>
+                </div><br>
                 <div class="column is-9">
                   <input type="text" name="" value="" class="input" v-model="newUser.Name">
                 </div>
@@ -84,7 +84,8 @@ export default {
         lastName: '',
         Tel: '',
         nickName: ''
-      }
+      },
+      A: ''
     }
   },
   methods: {
