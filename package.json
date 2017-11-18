@@ -10,7 +10,7 @@
     "unit": "jest test/unit/specs --coverage",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
-    "deploy": "gh-pages -d dist",
+    "deploy": "node build/build.js && push-dir --dir=dist --branch=gh-pages --remote=upstream --cleanup",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
     "build": "node build/build.js"
   },
