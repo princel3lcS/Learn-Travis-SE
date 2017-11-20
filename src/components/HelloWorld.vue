@@ -39,7 +39,7 @@
                 </div>
               </div>
               <div class="columns is-centered" style="padding : 0px 0px 16px 0px">
-                <button @click="add()"type="button" name="button" class="button is-success is-large">ADD+</button>
+                <button @click="add()"type="button" name="button" class="button is-success is-large">เพิ่ม</button>
               </div>
             </div>
             <div class="column is-7 box" style="margin-left : 16px; background-color : #00D1BB;">
